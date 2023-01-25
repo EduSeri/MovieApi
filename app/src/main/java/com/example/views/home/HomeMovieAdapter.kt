@@ -37,7 +37,6 @@ class HomeMovieAdapter(
                 }
                 submitList(filteredList)
             }
-
         }
     }
 
@@ -71,5 +70,4 @@ class HomeMovieAdapter(
     }
 
     class ViewHolder (val binding: MovieItemBinding): RecyclerView.ViewHolder(binding.root)
-
 }
